@@ -117,19 +117,19 @@ alert("Appreciated Name is entered correctly");
   <form action="/action_page.php" onsubmit="return validate()" method="post">
 
     <label for="name">UserName</label>
-    <input type="text" id="name" name="name" placeholder="Your username.."/>
+    <input type="text" id="name" name="name" placeholder="Your username.." required="required" />
 
     <label for="pwd">Password</label>
-    <input type="password" id="pwd" name="pwd" placeholder="Your password.."/>
+    <input type="password" id="pwd" name="pwd" placeholder="Your password.." required="required"/>
 
     <label for="phone">Phone</label>
-    <input type="text" id="phone" name="phone" placeholder="Your phone.."/>
+    <input type="text" id="phone" name="phone" placeholder="Your phone.." required="required"/>
 
      <label for="email">Email</label>
-    <input type="text" id="email" name="email" placeholder="Your email.."/>
+    <input type="text" id="email" name="email" placeholder="Your email.." required="required"/>
 
     <label for="country">Country</label>
-    <select id="country" name="country">
+    <select id="country" name="country" required="required">
       <option value="">none</option>
       <option value="australia">Australia</option>
       <option value="canada">Canada</option>
